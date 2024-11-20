@@ -20,16 +20,18 @@ export default function Home() {
         <Header loader={true} />
         <main className="flex-1">
           <Hero />
-          <About />
-          <Skills />
-          <Projects />
-          <Experience />
-          <Testimonials />
-          <Contact />
+          <div className="px-10">
+            <About />
+            <Skills />
+            <Projects />
+            <Experience />
+            <Testimonials />
+            <Contact />
+          </div>
           <Footer />
         </main>
       </div>
-      <Cursor />
+      {/* <Cursor /> */}
     </SmoothScroll>
   );
 }

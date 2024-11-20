@@ -10,21 +10,21 @@ const links: Link[] = [
     href: '/',
     thumbnail: 'home.jpg'
   },
-  {
-    title: 'About',
-    href: '/about',
-    thumbnail: 'about.jpg'
-  },
+  // {
+  //   title: 'About',
+  //   href: '/about',
+  //   thumbnail: 'about.jpg'
+  // },
   {
     title: 'Projects',
     href: '/projects',
     thumbnail: 'projects.jpg'
   },
-  {
-    title: 'Blog',
-    href: '/blog',
-    thumbnail: 'blog.jpg'
-  }
+  // {
+  //   title: 'Blog',
+  //   href: '/blog',
+  //   thumbnail: 'blog.jpg'
+  // }
 ];
 
 export { linkLimit, links };
